@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^obtemp\.html$ /ajax [R=302,L]

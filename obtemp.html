@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor Horario</title>
+</head>
+<body>
+
+    <h2>Convertir Zonas Horarias</h2>
+
+    <label>Ingresar fecha:</label>
+    <input type="date" id="fecha">
+
+    <br><br>
+
+    <label>Ingresar hora:</label>
+    <input type="time" id="hora">
+
+    <br><br>
+
+    <button onclick="convertirHora()">
+        Convertir
+    </button>
+
+    <h3>Horarios</h3>
+
+    <div id="horario"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@js-temporal/polyfill/dist/index.umd.js"></script>
+
+    <script src="obtemp.js"></script>
+
+</body>
+</html>
